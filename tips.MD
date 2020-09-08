@@ -1,5 +1,6 @@
-- Tuple is represented as {}, {name, "manju"}
-- List is represented as [{name, "manju"}]
+- Tuple is represented as {}, {name, "manju"}.
+- List is represented as [{name, "manju"}].
+- Maps #{"key" => 42}.
 - To check whether a module name is already in use
     ```
     $> 4> code:which(lists).

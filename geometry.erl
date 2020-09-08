@@ -7,6 +7,6 @@ test() ->
     3.14159 = area({circle, 1}),
     tests_worked.
 
-area({rectangle, Width, Height}) -> Width * Height;
-area({square, Side})             -> Side * Side;
-area({circle, Radius})           -> 3.14159 * Radius * Radius.
+area({rectangle, Width, Height}) -> Width * Height; %% Clause and always end with semicolon
+area({square, Side})             -> Side * Side; %% Clause and always end with semicolon
+area({circle, Radius})           -> 3.14159 * Radius * Radius. %% Clause and always end with semicolon
