@@ -6,3 +6,5 @@
     $> 4> code:which(lists).
         "/usr/local/Cellar/erlang/22.1.8/lib/erlang/lib/stdlib-3.10/ebin/lists.beam"
     ```
+- A comment start with % character
+- ~-15w says to print the "term" with a field length (width) of 15 and left justify it

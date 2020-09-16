@@ -33,3 +33,8 @@ Eshell V10.5.6  (abort with ^G)
 5> colour_map:blend(C1,C2).
 #{alpha => 1.0,blue => 0.5,green => 0.4,red => 0.3} #{alpha => 1.0,blue => 0.5,green => 0.8,red => 1.0}#{alpha => 1.0,blue => 0.5,green => 0.4,red => 0.3}
 ```
+
+- hello_io : Input out example
+    ```
+        hello_io:format_temps([{kl, {c, 10}}]).
+    ```
