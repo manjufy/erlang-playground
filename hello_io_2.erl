@@ -7,9 +7,11 @@ format_temps(List_of_cities) ->
 
 convert_list_to_c([{Name, {f, F}} | Rest]) ->
     Converted_City = {Name, {c, (F -32)* 5 / 9}},
+    io:format("F => ~w", [Converted_City]),
     [Converted_City | convert_list_to_c(Rest)];
 
 convert_list_to_c([City | Rest]) ->
+    io:format("C => ~w~n", [City]),
     [City | convert_list_to_c(Rest)];
 
 convert_list_to_c([]) ->
