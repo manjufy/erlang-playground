@@ -45,3 +45,6 @@ Eshell V10.5.6  (abort with ^G)
 8> lib_misc_for:for(1,10, fun(I) -> I end).
 [1,2,3,4,5,6,7,8,9,10]
 ```
+
+## References
+
