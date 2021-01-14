@@ -48,3 +48,7 @@ Eshell V10.5.6  (abort with ^G)
 
 ## References
 
+https://erlang.org/doc/getting_started/users_guide.html
+
+https://learnyousomeerlang.com/content
+

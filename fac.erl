@@ -1,4 +1,7 @@
 %% Factorial of a number
+%% How to compile and run
+%% >c(fac).
+%% >fac:fac(10).
 -module(fac).
 -export([fac/1]).
 
