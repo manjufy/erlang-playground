@@ -5,8 +5,8 @@ Erlang Playground
 
 ```
 $ erl
-$ c(module)
-$ module:function_name
+$ c(module).
+$ module:function_name(value).
 
 Ex:
 $erl
