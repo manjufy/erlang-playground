@@ -52,3 +52,6 @@ https://erlang.org/doc/getting_started/users_guide.html
 
 https://learnyousomeerlang.com/content
 
+https://erlang.org/doc/getting_started/seq_prog.html#lists
+
+https://erlang.org/doc/reference_manual/introduction.html#erlang%20ref%20manual

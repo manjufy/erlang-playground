@@ -20,4 +20,7 @@
 
 - Absence of Side effects means we can parallelize our programs.
     The technical term for memory areas that can be modified is mutual state. Erlang is a functional programming language and has immutable state.
-    
+
+- Exiting from cli
+    `halt().`
+
