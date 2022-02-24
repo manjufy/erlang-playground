@@ -24,3 +24,6 @@
 - Exiting from cli
     `halt().`
 
+- Arity: The number of arguments N is the arity of the function.
+    `export [init/1]`
+
