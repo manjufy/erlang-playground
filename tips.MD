@@ -1,3 +1,6 @@
+- Module name must start with a small letter; Technically, the module name is an atom.
+- export declaration: Tells which functions in the module can be called from outside the module.
+- [] -> list
 - Tuple is represented as {}, {name, "manju"}.
 - List is represented as [{name, "manju"}].
 - Maps #{"key" => 42}.
@@ -26,4 +29,3 @@
 
 - Arity: The number of arguments N is the arity of the function.
     `export [init/1]`
-
