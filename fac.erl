@@ -1,15 +1,11 @@
-%% Factorial of a number
-%% How to compile and run
-%% >c(fac).
-%% >fac:fac(10).
--module(fac).
--export([fac/1]).
+-module(fact).
+-export([fact/1]).
 
-fac(0) ->
+fact(0) ->
     1;
 
-fac(1) ->
+fact(1) ->
     1;
 
-fac(N) -> 
-    N * fac(N - 1).
+fact(N) ->
+    N * fact(N - 1).
