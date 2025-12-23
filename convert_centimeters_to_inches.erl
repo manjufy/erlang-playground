@@ -1,6 +1,7 @@
 -module(convert_centimeters_to_inches).
 -export([convert/2]).
 
+% Here following two parts of the convert function are called its clauses.
 % convert centimeters to inches. 1 inch = 2.54 centimeters (cm)
 convert(M, inch) ->
     M / 2.54;
